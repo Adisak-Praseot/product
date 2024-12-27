@@ -1,0 +1,75 @@
+/* Reset body */
+body {
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(135deg, #f42d2d, #1755f0, #f42d2d); /* ไล่สีพาสเทล */
+    justify-content: center; /* จัดกึ่งกลางแนวนอน */
+    align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+    
+}
+/* Main Content */
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* ใช้ทั้งหน้าจอ */
+    padding-top: 1px; /* Space below navbar */
+    box-sizing: border-box;
+}
+
+.product-c {
+    background: rgb(255, 255, 255); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+}
+
+.product-im {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-c h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-c p {
+    font-size: 20px;
+    color: #666;
+    text-emphasis-color: rgb(9, 255, 0);
+    margin: 5px 0;  /* สีของคำแนะนำ */
+}
+
+.product-c h2 {
+    font-size: 20px;
+    color: #000000;
+    text-emphasis-color: rgb(9, 255, 0);
+    margin: 5px 0;  /* สีของคำแนะนำ */
+}
+
+.product-i {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-i:hover {
+    background-color: #c01d1d;
+}
